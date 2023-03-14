@@ -31,13 +31,10 @@ def solution(n, build_frame):
 
             elif matrix[x][y] >= 1:
                 matrix[nx][ny] = 0
-
-        elif a == 0 and b == 0: #삭제인 경우
-            #양쪽을 다 삭제해?...미친
-
-
-
-
+        #
+        # elif a == 0 and b == 0: #삭제인 경우
+        #     #양쪽을 다 삭제해?...미친
+        #
 
 
     return matrix
