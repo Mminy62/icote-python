@@ -40,8 +40,8 @@ def binary_search(array, n, c):
     result = 0
 
     while start <= end:
-        mid = (start + end)//2
-        value = array[0]
+        mid = (start + end)//2 # 거리가 1 ~ end 까지 있는데 중간 값
+        value = array[0] #
         count = 1
 
         for i in range(1, n):
