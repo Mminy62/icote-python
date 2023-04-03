@@ -28,4 +28,3 @@ for i in range(1, n):
         next5 = ugly[i5] * 5
 
 print(ugly[n-1])
-
